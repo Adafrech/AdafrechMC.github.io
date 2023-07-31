@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4a80d6;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.crafting-recipe {
+    background-color: #2e2e2e;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.crafting-recipe h2 {
+    color: #4a80d6;
+}
+
+.crafting-recipe img {
+    max-width: 100%;
+    height: 150px; /* Asegura que la altura se ajuste proporcionalmente al ancho */
+    display: block;
+    margin: 10px 0; /* Ajusta el margen superior e inferior y elimina el margen izquierdo y derecho */
+}
+
+footer {
+    background-color: #4a80d6;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: #ffffff; /* Color del texto en el footer */
+    font-size: 14px; /* Tamaño de fuente del texto en el footer */
+}
+
+/* Estilos adicionales para personalizar el footer */
+footer p {
+    margin: 0; /* Elimina el margen predeterminado del párrafo en el footer */
+}
+
+footer a {
+    color: #ffffff; /* Color de los enlaces en el footer */
+    text-decoration: none; /* Quita la subrayado predeterminado de los enlaces */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Añade un subrayado cuando el enlace se encuentra en hover */
+}
